@@ -83,8 +83,6 @@ h4{font-weight:800;letter-spacing:-.01em}
 .hdr-r{display:flex;gap:8px;align-items:center;flex:none}
 .icon-btn{width:46px;height:46px;border-radius:12px;background:var(--ivory);display:grid;place-items:center;border:0;cursor:pointer;transition:background .2s}
 .icon-btn:hover{background:var(--line)}
-.lang-sw{height:46px;padding:0 14px;border-radius:12px;display:inline-flex;align-items:center;font-size:17px;line-height:1;border:1.5px solid var(--line);transition:border-color .2s}
-.lang-sw:hover{border-color:var(--burgundy)}
 .menu-btn{display:none}
 
 /* home hero (home.html) */
@@ -688,7 +686,6 @@ a.ev:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
 .cite{background:var(--ivory);border-radius:14px;padding:18px 20px;font-size:15px;line-height:1.6;color:var(--body)}
 .cite i{font-style:italic}
 .m-only{display:none}
-.lang-sw[lang="ur"]{font-family:'Segoe UI',Tahoma,system-ui,sans-serif;font-weight:600}
 .shelf{display:flex;align-items:flex-end;padding:0 10px 6px;flex:none}
 .shelf .cover{width:150px;flex:none;transition:transform .4s var(--ease)}
 .shelf .cover:nth-child(1){transform:rotate(-7deg) translate(26px,10px)}
@@ -780,7 +777,6 @@ a.ev:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
   .site-hdr{top:10px}
   .site-hdr .bar{padding:8px 8px 8px 14px}
   .logo img{height:38px}
-  .hdr-r .lang-sw{display:none}
   .site-hdr nav.open{left:16px;right:16px}
   .site-hdr nav.open .mega{grid-template-columns:1fr}
   .phero{padding:140px 0 48px}
@@ -824,8 +820,6 @@ h2.stmt{font-weight:700}
 .shelf .cover{box-shadow:0 24px 30px -18px rgba(0,0,0,.6)}
 .art-img img{box-shadow:none}
 .nrow b small{font-size:.5em}
-.site-hdr nav.open .m-lang a{background:none;border:1.5px solid var(--line);font-family:'Segoe UI',Tahoma,system-ui,sans-serif;font-size:17px}
-.site-hdr nav.open .m-lang a span{font-family:var(--font);font-size:14px;color:var(--muted)}
 
 /* review fixes */
 .chips.light .chip{border-color:var(--line);color:var(--ink);background:var(--paper);font-size:clamp(17px,1.6vw,21px);padding:16px 26px}

@@ -412,7 +412,7 @@ Confident, chunky and sentence-case.
 - **Header bar:** an opaque paper bar floating 16px from the top, with an 18px radius.
   - Logo on the left. It uses `mix-blend-mode: multiply`, so the PNG's white box disappears into the paper.
   - Burgundy links, 600 at 15px.
-  - A right cluster with the search icon button, the Urdu language switch and a burgundy Get Involved button.
+  - A right cluster with the search icon button and a burgundy Get Involved button.
   - Hovering a link fills it with ivory. The current section gets a short 3px burgundy underbar.
 - **Mega menus:** paper, 18px radius, a two-column list of bold titles with muted descriptions, fading in 8px.
 - **Below 1180px:** a menu button opens a paper sheet with expandable sub-menus and a burgundy Get Involved row. Escape closes it.
