@@ -88,7 +88,7 @@
       box.querySelectorAll('[data-f]').forEach(function(c){if(c.tagName==='SELECT')c.value='';else c.setAttribute('aria-pressed',c.getAttribute('data-v')==='');});
       apply();
     });});
-    /* deep links like publications.html#series=ver or #lang=khowar */
+    /* deep links like page.html#key=value */
     function fromHash(){
       if(location.hash.indexOf('=')<0)return;
       var scope=box.parentNode;
@@ -102,6 +102,37 @@
     fromHash();
     window.addEventListener('hashchange',function(){fromHash();list.scrollIntoView({behavior:'smooth',block:'start'});});
   });
+
+  /* publications: one search across the three book tables, plus #lang=khowar deep links */
+  var pf=d.querySelector('[data-pubfilter]');
+  if(pf){
+    var pq=pf.querySelector('[data-q]'),pl=pf.querySelector('[data-plang]'),pc=pf.querySelector('[data-count]'),
+        pe=d.querySelector('[data-pubempty]'),groups=[].slice.call(d.querySelectorAll('[data-pubgroup]'));
+    function pnorm(s){return (s||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');}
+    function papply(){
+      var q=pnorm(pq.value.trim()),l=pl.value,total=0;
+      groups.forEach(function(g){
+        var n=0;
+        g.querySelectorAll('[data-item]').forEach(function(it){
+          var ok=(!l||(' '+it.getAttribute('data-lang')+' ').indexOf(' '+l+' ')>-1)&&(!q||pnorm(it.getAttribute('data-text')).indexOf(q)>-1);
+          it.classList.toggle('hide',!ok);if(ok)n++;
+        });
+        g.hidden=n===0;total+=n;
+        var c=pf.querySelector('[data-gcount="'+g.id+'"]');if(c){c.textContent=n;c.parentNode.classList.toggle('off',n===0);}
+      });
+      pc.textContent=total;pe.classList.toggle('show',total===0);
+    }
+    pq.addEventListener('input',papply);
+    pl.addEventListener('change',papply);
+    d.querySelectorAll('[data-pubreset]').forEach(function(r){r.addEventListener('click',function(){pq.value='';pl.value='';papply();pq.focus();});});
+    function pfromHash(){
+      var m=location.hash.match(/^#lang=([\w-]+)$/);
+      if(!m||!pl.querySelector('option[value="'+m[1]+'"]'))return;
+      pl.value=m[1];papply();pf.scrollIntoView({block:'start'});
+    }
+    pfromHash();
+    window.addEventListener('hashchange',pfromHash);
+  }
 
   /* table-of-contents highlight */
   var toc=d.querySelector('.toc');

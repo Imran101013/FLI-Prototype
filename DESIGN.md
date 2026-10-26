@@ -209,7 +209,7 @@ The site is a deep navy field office with a single warm light source. Every page
 
 Type is one family, Plus Jakarta Sans, worked hard: 800 weight with tight negative tracking for every heading, so the voice is confident and contemporary rather than institutional. Density is generous on hubs (110px section rhythm, bento grids, big boxes) and calm on reading pages (68ch prose at 18px, sticky white side cards). Urdu is a first-class script, set right to left in Nastaliq, never faked in the Latin face.
 
-The system is the user's approved `home.html`, extended one-to-one into 163 pages from one stylesheet (`site/assets/fli.css`). The site will be rebuilt in WordPress with Elementor free, so every surface reduces to a small set of reusable section types, cards and buttons listed below.
+The system is the user's approved `home.html`, extended one-to-one into 74 pages from one stylesheet (`site/assets/fli.css`). The site will be rebuilt in WordPress with Elementor free, so every surface reduces to a small set of reusable section types, cards and buttons listed below.
 
 **Key Characteristics:**
 - Navy hero, pale ground, white cards: three surface levels, always in that order.
@@ -289,7 +289,7 @@ Breakpoints: 1180px (nav collapses to the menu button, asides unstick, columns s
 ### Hero variants
 - **Photo hero:** section hubs (About, Our Work, Get Involved, and similar) open on a distinct FLI fieldwork photo at 50% opacity under a navy gradient that deepens to 97% at the foot; tall variant fills min(780px, 86vh) with content bottom-aligned.
 - **Map hero:** language pages (index, profiles, atlas) show FLI's language map inverted, greyscaled and screened at 17% opacity, with a blue radial glow top right.
-- **Plain navy:** document pages (library, book, newsletters, papers, legal) use solid navy; the library shows real covers on a fanned shelf at the right.
+- **Plain navy:** document pages (publications, papers, legal) use solid navy; Publications shows real covers on a fanned shelf at the right.
 - Every inner hero carries breadcrumbs, the H1, a lead, at most one sun CTA, and a facts strip (a hairline-topped row of bold values with on-dark-muted captions) where facts exist. Articles use their own hero: breadcrumb, H1, meta row, and a 28px-rounded lead image that overlaps the body by 160px.
 
 ### Named Rules
@@ -355,7 +355,8 @@ Confident, chunky and sentence-case.
 - **Facts strip:** hairline-topped auto-fit row (170px min) of 800 values with on-dark-muted captions, closing each hero.
 - **Family marker:** 10px family-colour dot plus the family name in 700 at 13px.
 - **Download row:** white row with a 44px ground icon square, bold title, muted size line and a file-type tag; hover turns the row navy and the icon square sun.
-- **Book cover:** coloured cover by series (Verse navy, Language and Culture blue, Primers sun, Translations Iranian green), spine shade, 800 title, Urdu titles in Nastaliq RTL; real cover images replace the colour block where available.
+- **Book cover:** coloured cover by series (Vernacular navy, Language and Culture blue, Other publications sun, Translations Iranian green), spine shade, 800 title, Urdu titles in Nastaliq RTL; real cover images replace the colour block where available.
+- **Publication list:** one page, no per-book pages, mirroring FLI's live Publications page. Each series is a white table: a series-coloured rounded-square number, the title (Urdu titles in Nastaliq as published, with an English gloss beneath), language, author and year. Rows carry ids (`#ver-01`, `#lc-18`, `#pr-21`) so language pages and search link straight to a row, which highlights pale sun. A sticky search and language filter above the tables hides empty series. Below 700px each row becomes the number plus a title block and one wrapped meta line.
 - **Report tile:** asymmetric navy/blue/sun cycling tiles with the year set huge; tilt -1deg and lift on hover.
 - **Process steps:** white step cards headed by a navy rounded-square counter with a sun numeral (inverted on navy sections), because the order is the information.
 - **Event row:** navy square date block (38px day, sun month), title, place and time, action button.
