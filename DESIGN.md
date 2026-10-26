@@ -1,23 +1,24 @@
 ---
 name: Forum for Language Initiatives (fli-online.org)
-description: Navy-and-sun public home for FLI's language work in northern Pakistan; home.html's world, extended to every page.
+description: Burgundy-and-ivory public home for FLI's language work in northern Pakistan; home.html's world, extended to every page.
 colors:
-  navy: "#0d1b3e"
-  navy-2: "#13275a"
-  blue: "#2f5bea"
-  sun: "#ffc23d"
-  sun-deep: "#f0a800"
-  ground: "#f4f6fb"
-  white: "#ffffff"
-  ink: "#0d1b3e"
-  body: "#2a3553"
-  muted: "#5c6886"
-  line: "#e3e7f1"
-  on-dark-muted: "#9fb0d6"
-  on-dark-soft: "#c9d2ea"
-  on-dark-card: "#b6c2df"
-  on-sun-text: "#5b4300"
-  error: "#c0283a"
+  burgundy: "#5B0404"
+  burgundy-2: "#741414"
+  ivory: "#F8F1E7"
+  ivory-deep: "#EFE3D2"
+  paper: "#FFFCF7"
+  sand: "#EAD7B8"
+  blush: "#F0E0D8"
+  brass: "#D8A847"
+  brass-deep: "#A87A22"
+  ink: "#5B0404"
+  body: "#33231F"
+  muted: "#6E5B53"
+  line: "#E6D8C6"
+  on-dark-muted: "#D9B3A8"
+  on-dark-soft: "#EDD6CF"
+  on-dark-card: "#E2C3BA"
+  error: "#B3261E"
   family-indo-aryan: "#2f5bea"
   family-iranian: "#14946b"
   family-nuristani: "#e5781f"
@@ -111,32 +112,32 @@ spacing:
   section: "110px"
   container: "1280px"
 components:
-  button-sun:
-    backgroundColor: "{colors.sun}"
-    textColor: "{colors.navy}"
+  button-primary:
+    backgroundColor: "{colors.ivory}"
+    textColor: "{colors.burgundy}"
     rounded: "{rounded.button}"
     padding: "15px 26px"
     height: "48px"
-  button-sun-hover:
-    backgroundColor: "{colors.sun-deep}"
-    textColor: "{colors.navy}"
+  button-primary-hover:
+    backgroundColor: "{colors.brass}"
+    textColor: "{colors.burgundy}"
   button-dark:
-    backgroundColor: "{colors.navy}"
-    textColor: "{colors.white}"
+    backgroundColor: "{colors.burgundy}"
+    textColor: "{colors.paper}"
     rounded: "{rounded.button}"
     padding: "15px 26px"
     height: "48px"
   button-dark-hover:
-    backgroundColor: "{colors.blue}"
+    backgroundColor: "{colors.burgundy-2}"
   button-glass:
     backgroundColor: "rgba(255,255,255,.12)"
-    textColor: "{colors.white}"
+    textColor: "{colors.paper}"
     rounded: "{rounded.button}"
     padding: "15px 26px"
     height: "48px"
   button-line:
-    backgroundColor: "{colors.white}"
-    textColor: "{colors.navy}"
+    backgroundColor: "{colors.paper}"
+    textColor: "{colors.burgundy}"
     rounded: "{rounded.button}"
     padding: "15px 26px"
     height: "48px"
@@ -145,111 +146,159 @@ components:
     padding: "11px 18px"
     height: "44px"
   card:
-    backgroundColor: "{colors.white}"
+    backgroundColor: "{colors.paper}"
     rounded: "{rounded.card}"
     padding: "{spacing.card-pad}"
   card-event:
-    backgroundColor: "{colors.sun}"
-    textColor: "{colors.on-sun-text}"
+    backgroundColor: "{colors.sand}"
+    textColor: "{colors.burgundy-2}"
     rounded: "{rounded.card}"
   chip:
-    textColor: "{colors.white}"
+    textColor: "{colors.paper}"
     rounded: "{rounded.pill}"
     padding: "14px 22px"
   chip-hover:
-    backgroundColor: "{colors.sun}"
-    textColor: "{colors.navy}"
+    backgroundColor: "{colors.brass}"
+    textColor: "{colors.burgundy}"
   filter-chip:
-    backgroundColor: "{colors.white}"
+    backgroundColor: "{colors.paper}"
     textColor: "{colors.muted}"
     rounded: "{rounded.pill}"
     padding: "10px 18px"
     height: "44px"
   filter-chip-pressed:
-    backgroundColor: "{colors.navy}"
-    textColor: "{colors.white}"
+    backgroundColor: "{colors.burgundy}"
+    textColor: "{colors.paper}"
   tab:
-    backgroundColor: "{colors.ground}"
+    backgroundColor: "{colors.ivory}"
     textColor: "{colors.muted}"
     rounded: "{rounded.pill}"
     padding: "12px 20px"
     height: "46px"
   tab-active:
-    backgroundColor: "{colors.navy}"
-    textColor: "{colors.white}"
+    backgroundColor: "{colors.burgundy}"
+    textColor: "{colors.paper}"
   input-field:
-    backgroundColor: "{colors.ground}"
+    backgroundColor: "{colors.ivory-deep}"
     textColor: "{colors.ink}"
     rounded: "{rounded.button}"
     padding: "14px 16px"
     height: "52px"
   input-field-focus:
-    backgroundColor: "{colors.white}"
+    backgroundColor: "{colors.paper}"
   nav-bar:
-    backgroundColor: "{colors.white}"
+    backgroundColor: "{colors.paper}"
     rounded: "{rounded.panel-sm}"
     padding: "10px 12px 10px 20px"
   download-row:
-    backgroundColor: "{colors.white}"
+    backgroundColor: "{colors.paper}"
     rounded: "16px"
     padding: "16px 18px 16px 16px"
     height: "72px"
   download-row-hover:
-    backgroundColor: "{colors.navy}"
-    textColor: "{colors.white}"
+    backgroundColor: "{colors.burgundy}"
+    textColor: "{colors.paper}"
 ---
 
 # Design System: Forum for Language Initiatives
 
 ## Overview
 
-**Creative North Star: "The Field Office Lit by Sun"**
+**Creative North Star: "The Clothbound Library"**
 
-The site is a deep navy field office with a single warm light source. Every page opens on a navy hero (a real fieldwork photo, the language-map texture, or plain navy) under a floating white nav bar, then drops onto a cool pale ground where white, rounded cards sit flat until touched. Sun yellow is the one warm voice: the primary call to action, highlighted words in headlines, timeline dots, step numerals, and the occasional whole sun tile or card. Blue carries links, roles and secondary emphasis.
+The site is one of FLI's books: burgundy binding, ivory pages, a touch of brass foil. Every page opens on a burgundy hero under a floating paper nav bar. The hero is a real fieldwork photo, the language-map texture, or plain burgundy. Below it sits a warm ivory ground where paper-white rounded cards lie flat until touched.
+
+Burgundy covers about a quarter of each page: the hero, the footer, and at most one feature band or slab between. Brass is the small accent, and it only ever sits on burgundy: highlighted words in headlines, timeline dots, step numerals, and hovers. On light surfaces, emphasis comes from burgundy itself, plus a sand tint for feature tiles. The burgundy matches the maroon of FLI's logo lettering and the header of its 2026 quarterly newsletter.
 
 Type is one family, Plus Jakarta Sans, worked hard: 800 weight with tight negative tracking for every heading, so the voice is confident and contemporary rather than institutional. Density is generous on hubs (110px section rhythm, bento grids, big boxes) and calm on reading pages (68ch prose at 18px, sticky white side cards). Urdu is a first-class script, set right to left in Nastaliq, never faked in the Latin face.
 
-The system is the user's approved `home.html`, extended one-to-one into 74 pages from one stylesheet (`site/assets/fli.css`). The site will be rebuilt in WordPress with Elementor free, so every surface reduces to a small set of reusable section types, cards and buttons listed below.
+The system is the user's approved `home.html`, extended one-to-one into 74 pages from one stylesheet (`assets/fli.css`). The site will be rebuilt in WordPress with Elementor free, so every surface reduces to a small set of reusable section types, cards and buttons listed below.
 
 **Key Characteristics:**
-- Navy hero, pale ground, white cards: three surface levels, always in that order.
-- Sun yellow as the single warm accent; blue as the working link colour.
+- Burgundy hero, ivory ground, paper cards: three surface levels, always in that order.
+- Burgundy on about 25–30% of each page; ivory and paper for the rest.
+- Brass as the one small accent, used only on burgundy; sand for feature tiles on light surfaces.
 - Plus Jakarta Sans 800, tracking -0.03em, on every heading.
 - Soft, generous radii (22px cards, 28px panels, 999px pills and chips).
-- Flat at rest; hover lifts cards 4px with one diffuse navy shadow.
+- Flat at rest; hover lifts cards 4px with one diffuse warm shadow.
 - Language-family colours match the legend of FLI's language map.
 
 ## Colors
 
-A navy-dominant palette with one warm accent (sun), one cool working accent (blue), and a fixed five-colour family code borrowed from FLI's language map.
+The palette has three parts:
+- Two brand colours, burgundy and warm ivory, each in a few steps.
+- One small brass accent that only sits on burgundy.
+- The fixed five-colour family code from FLI's language map.
+
+Every text pairing passes WCAG AA. Burgundy on ivory is 12.8:1.
 
 ### Primary
-- **Field Navy** (navy): heroes, footer, navy sections, dark tiles and buttons, the date block on events, and all heading ink (ink is the same value). The ground everything else sits on in the first viewport.
-- **Deep Navy Step** (navy-2): the second navy for tiles and social buttons on navy surfaces, step cards on navy sections, people-card photo wells, and the mid stop of the CTA slab gradient.
+- **Burgundy** (burgundy): used for:
+  - heroes, the footer, dark sections, tiles and quotes;
+  - dark buttons and the event date block;
+  - all heading ink (ink has the same value);
+  - text links.
+
+  Burgundy is only 1.04:1 against body text, so links in running text are always underlined.
+- **Burgundy Step** (burgundy-2): the second burgundy, used for:
+  - button hover;
+  - tiles and social buttons on burgundy;
+  - step cards on burgundy sections;
+  - people-card photo wells;
+  - the second feature colour: the resources box, the mailing-list route, and every second report tile;
+  - the CTA slab gradient, which runs on to #8A2216 at the far corner.
 
 ### Secondary
-- **Hindukush Sun** (sun): the primary CTA fill, highlighted words inside H1s (`h1 span`), the `mark` underline highlight, timeline dots, step and ordered-list numerals, quote marks, text selection, focus rings on dark surfaces, and whole sun tiles, cards, routes and boxes. Hover deepens to **Sun Deep** (sun-deep).
+- **Warm Ivory** (ivory): the page background, the primary button on burgundy (with burgundy text), and quiet controls (icon buttons, tabs at rest, download-row icons).
+- **Paper** (paper): cards, the opaque nav bar, mega menus, white sections, and text on burgundy.
+- **Deep Ivory** (ivory-deep): form fields.
+- **Sand** (sand): used for:
+  - feature tiles, cards, routes and boxes on light surfaces;
+  - icon squares on light cards;
+  - checklist ticks and ordered-list numerals;
+  - the Other publications series.
 
-### Tertiary
-- **Working Blue** (blue): inline prose links, text links, list markers, role labels, filter-search focus borders, focus rings on light surfaces, blue tiles/boxes/routes, and the end stop of the CTA slab gradient.
+  Body copy on sand is burgundy-2; headings stay burgundy.
+- **Blush** (blush): pale tags, and the highlight on a table row you jumped to.
+
+### Accent
+- **Brass** (brass): only on burgundy. It is used for:
+  - highlighted words inside H1s (`h1 span`);
+  - timeline dots and years, and step numerals;
+  - hover on chips, footer links and social buttons;
+  - the primary button's hover, and the download-row icon on hover;
+  - focus rings on dark surfaces, and text selection;
+  - the Language & Culture series, as a fill under burgundy text.
+
+  Brass is 6.6:1 on burgundy but 2.4:1 on ivory, so it is never text on a light surface. The `mark` highlight on ivory is a 50% brass band behind burgundy text.
+- **Brass Deep** (brass-deep): decorative quote marks on light cards, the 404 zero, and the calendar swatch.
 
 ### Neutral
-- **Cool Ground** (ground): the page background and the fill of quiet controls (icon buttons, tabs at rest, form inputs, download-row icons).
-- **White** (white): cards, the nav bar, mega menus, white sections.
-- **Body Ink** (body): long-form prose and list text, slightly softer than heading ink.
-- **Muted Slate** (muted): secondary text, metadata, labels, card summaries on light surfaces.
+- **Body Ink** (body): long-form prose, list text and table cells; a warm near-black, so paragraphs read calmer than burgundy.
+- **Muted** (muted): secondary text, metadata, labels, card summaries on light surfaces.
 - **Hairline** (line): dividers, card footers, table rules, line-button borders.
-- **On-dark text** (on-dark-muted, on-dark-soft, on-dark-card): three stepped light blues for metadata, leads and card copy on navy. Use them instead of opacity on white.
-- **Sun Ink** (on-sun-text): body copy on any sun surface; navy stays the heading colour there.
+- **On-dark text** (on-dark-muted, on-dark-soft, on-dark-card): three stepped warm creams for metadata, leads and card copy on burgundy. Use them instead of opacity on paper.
 - **Error Red** (error): field errors and invalid borders only.
 
 ### Language families
-- **Indo-Aryan** (family-indo-aryan), **Iranian** (family-iranian), **Nuristani** (family-nuristani), **Tibeto-Burman** (family-tibeto-burman), **Isolate** (family-isolate). Shown as a 10px dot beside the family name (the family marker), in legends, filter chips and language cards. The Tibeto-Burman dot renders at #7f8bb0 rather than navy so it stays visible on navy heroes and pressed chips; the legend meaning is unchanged.
+- **Indo-Aryan** (family-indo-aryan), **Iranian** (family-iranian), **Nuristani** (family-nuristani), **Tibeto-Burman** (family-tibeto-burman), **Isolate** (family-isolate). Each appears as a 10px dot beside the family name (the family marker), in legends, filter chips and language cards.
+- The Tibeto-Burman dot renders at #7f8bb0 so it stays visible on burgundy heroes and pressed chips. The legend meaning is unchanged.
+
+### Class names
+The class names come from the earlier navy palette and were kept so the 74 pages did not need re-tagging:
+- `.navy`, `.navyb`, `.navyq`, `.navyr` render burgundy.
+- `.sun`, `.sunb`, `.sunr`, `.card.event`, `.card.noimg` render sand.
+- `.blue`, `.box.res`, `.bluer` render burgundy-2.
+- `.btn-sun` is the ivory primary button.
 
 ### Named Rules
 **The Map Legend Rule.** Family colours mean language family and nothing else, and they match FLI's language-map legend. Never reuse green, orange or red as decoration, and never reassign a family to a different colour.
 
-**The One Warm Voice Rule.** Sun is the only warm accent. One sun CTA per hero; sun text appears only as highlighted words or labels on navy, never as body copy on white (it fails contrast there).
+**The Quarter Burgundy Rule.** Burgundy covers about a quarter of a page: the hero, the footer, and at most one feature band or slab between. Everything else is ivory or paper.
+
+**The Brass On Burgundy Rule.** Brass appears only on burgundy, and only in small doses: a phrase, a dot, a numeral, a hover. Use one ivory primary button per hero.
+
+**The Natural Photo Rule.** Photos keep their own colours. Burgundy fades in only behind the text, never as a wash over the whole photo.
 
 ## Typography
 
@@ -287,27 +336,35 @@ Hub pages compose from bento grids (6 columns, 18px gap, 220px minimum rows), 2-
 Breakpoints: 1180px (nav collapses to the menu button, asides unstick, columns stack), 1050px (two-column heroes and splits stack; 3-up grids go 2-up), 700px (everything single-column; tables reflow into stacked rows), 560px (tight gutters, smaller hero padding, 2-up books).
 
 ### Hero variants
-- **Photo hero:** section hubs (About, Our Work, Get Involved, and similar) open on a distinct FLI fieldwork photo at 50% opacity under a navy gradient that deepens to 97% at the foot; tall variant fills min(780px, 86vh) with content bottom-aligned.
-- **Map hero:** language pages (index, profiles, atlas) show FLI's language map inverted, greyscaled and screened at 17% opacity, with a blue radial glow top right.
-- **Plain navy:** document pages (publications, papers, legal) use solid navy; Publications shows real covers on a fanned shelf at the right.
-- Every inner hero carries breadcrumbs, the H1, a lead, at most one sun CTA, and a facts strip (a hairline-topped row of bold values with on-dark-muted captions) where facts exist. Articles use their own hero: breadcrumb, H1, meta row, and a 28px-rounded lead image that overlaps the body by 160px.
+- **Photo hero:** section hubs (About, Our Work, Get Involved, and similar) open on a distinct FLI fieldwork photo in its natural colours.
+  - Burgundy fades in from the left (94% at the edge, clear by 88% of the width) and from the foot (97%). The breadcrumbs, H1, lead and facts strip therefore sit on burgundy, while the right of the photo shows true.
+  - Below 700px the text spans the full width, so the fade runs from the top (60%) down to 97%.
+  - The tall variant fills min(780px, 86vh), with content bottom-aligned.
+  - The home hero fades from the foot only, reaching 78% at 40% of its height (70% at 18% on phones).
+- **Map hero:** language pages (index, profiles, atlas) show FLI's language map on burgundy: inverted, greyscaled and screened at 17% opacity, with a faint brass glow top right.
+- **Plain burgundy:** document pages (publications, papers, legal) use solid burgundy. Publications shows real covers on a fanned shelf at the right.
+- Every inner hero carries:
+  - breadcrumbs, the H1 and a lead;
+  - at most one ivory primary button;
+  - a facts strip where facts exist: a hairline-topped row of bold values with on-dark-muted captions.
+- Articles use their own hero: breadcrumb, H1, meta row, and a 28px-rounded lead image that overlaps the body by 160px.
 
 ### Named Rules
 **The Breadcrumb Not Eyebrow Rule.** Pages orient with breadcrumbs and facts strips. No page, the home page included, puts an eyebrow pill above a heading; the heading carries its own label (the home vision line reads "Our vision is to see…").
 
 ## Elevation & Depth
 
-Flat at rest. Depth comes from tonal layering (navy hero, cool ground, white card) and from the radius change between levels. Shadows are all the same soft navy-tinted family and appear in three places: the floating nav bar and its overlays, interaction (hover lift), and physical objects (book covers).
+Flat at rest. Depth comes from tonal layering (burgundy hero, ivory ground, paper card) and from the radius change between levels. All shadows belong to one soft, warm-brown family (`rgba(60,8,4,…)`). They appear in three places: the floating nav bar and its overlays, interaction (hover lift), and physical objects (book covers).
 
 ### Shadow Vocabulary
-- **Hover lift** (`box-shadow: 0 24px 50px -24px rgba(13,27,62,.35)`): cards, tiles, language cards, events, videos and report tiles on hover, paired with translateY(-3 to -6px).
-- **Floating bar** (`box-shadow: 0 10px 40px -12px rgba(13,27,62,.25)`): the fixed nav bar, always on.
-- **Menu** (`box-shadow: 0 30px 60px -20px rgba(13,27,62,.3)`): mega menu and mobile nav sheet.
-- **Overlay** (`box-shadow: 0 40px 80px -30px rgba(13,27,62,.6)`): search dialog over a 55% navy blurred scrim.
-- **Book** (`box-shadow: 0 22px 30px -20px rgba(13,27,62,.6)`): book covers at rest, deepening on hover; covers also carry a darkened 8px spine strip.
+- **Hover lift** (`box-shadow: 0 24px 50px -24px rgba(60,8,4,.35)`): cards, tiles, language cards, events, videos and report tiles on hover, paired with translateY(-3 to -6px).
+- **Floating bar** (`box-shadow: 0 10px 40px -12px rgba(60,8,4,.25)`): the fixed nav bar, always on.
+- **Menu** (`box-shadow: 0 30px 60px -20px rgba(60,8,4,.3)`): mega menu and mobile nav sheet.
+- **Overlay** (`box-shadow: 0 40px 80px -30px rgba(60,8,4,.6)`): the search dialog, over a 55% dark-burgundy (`rgba(40,6,4,.55)`) blurred scrim.
+- **Book** (`box-shadow: 0 22px 30px -20px rgba(60,8,4,.55)`): book covers at rest, deepening on hover. Covers also carry a darkened 8px spine strip.
 
 ### Named Rules
-**The Lift On Touch Rule.** A card earns a shadow only while hovered. At rest, white on the cool ground is enough.
+**The Lift On Touch Rule.** A card earns a shadow only while hovered. At rest, paper on ivory is enough.
 
 ## Shapes
 
@@ -318,61 +375,82 @@ Soft, generous rounding throughout, scaled to the element: 999px pills for chips
 ### Buttons
 Confident, chunky and sentence-case.
 - **Shape:** gently rounded (14px); small size 12px.
-- **Sun (primary):** sun fill, navy text, 700 at 15px, 15px 26px padding, 48px minimum height. Hover deepens to sun-deep and lifts 2px.
-- **Dark:** navy fill, white text; hover turns blue. The default on sun and white surfaces.
-- **Glass:** 12% white with a 25% white border and 8px backdrop blur; secondary action on photo heroes.
-- **Line:** white with a 1.5px hairline border; border turns navy on hover.
-- **Text link:** blue 700 with an underline on hover, offset 4px.
-- **Focus:** 3px blue outline, 3px offset; sun outline on navy surfaces.
+- **Primary** (`.btn-sun`): used on burgundy.
+  - Ivory fill, burgundy text, 700 at 15px, 15px 26px padding, 48px minimum height.
+  - Hover turns brass and lifts 2px.
+  - On the paper nav bar and the 404 page it renders burgundy with paper text.
+- **Dark:** burgundy fill, paper text; hover turns burgundy-2. This is the default on ivory, paper and sand.
+- **Glass:** 12% white with a 25% white border and 8px backdrop blur; the secondary action on photo heroes.
+- **Line:** paper with a 1.5px hairline border; the border turns burgundy on hover.
+- **Text link:** burgundy 700 with an underline on hover, offset 4px. Inline links in prose and fact tables are always underlined.
+- **Focus:** 3px burgundy outline with 3px offset; brass outline on burgundy surfaces.
 
 ### Chips and tags
-- **Language chip:** pill with a 20% white border on navy, 600 at 17px; hover fills sun with navy text. A light variant (white fill, hairline border, up to 21px) sits on the ground.
-- **Filter chip:** white pill, 1.5px hairline border, muted 700 text, optional family dot and count; pressed state is navy with white text.
-- **Tag:** small 800 pill at 12px in pale sun (default), pale blue, or ground grey.
+- **Language chip:** pill with a 20% white border on burgundy, 600 at 17px; hover fills brass with burgundy text. A light variant (paper fill, hairline border, up to 21px) sits on ivory and hovers burgundy with paper text.
+- **Filter chip:** paper pill, 1.5px hairline border, muted 700 text, optional family dot and count; the pressed state is burgundy with paper text.
+- **Tag:** small 800 pill at 12px. Three variants:
+  - sand with burgundy-2 text (default);
+  - blush with burgundy text (`.tag.blue`);
+  - ivory with muted text (`.tag.grey`).
 
 ### Cards / Containers
 - **Corner Style:** 22px (cards, quotes, people, events, tables); 20px (language cards, keyboard cards, gallery, videos); 28px (panels, boxes, routes).
-- **Background:** white on the ground; ground-filled rows inside white sections; sun, navy and blue as deliberate feature variants (event cards, imageless news cards, routes, boxes, tiles).
+- **Background:** paper on ivory, and ivory rows inside paper sections. Sand, burgundy and burgundy-2 are deliberate feature variants (event cards, imageless news cards, routes, boxes, tiles).
 - **Shadow Strategy:** none at rest; hover lift per Elevation.
 - **Border:** none; internal dividers are 1px hairlines.
 - **Internal Padding:** 26 to 30px (cards, tiles), 36 to 44px (feature boxes, routes).
-- **News card:** 16:10 image well whose photo scales 1.04 on hover, meta row with a blue category, 22px title. A lead card spans two columns with the image beside the text.
+- **News card:** 16:10 image well whose photo scales 1.04 on hover, a meta row with a burgundy category, and a 22px title. A lead card spans two columns with the image beside the text.
 
 ### Inputs / Fields
-- **Style:** ground fill, 1.5px transparent border, 14px radius, 52px minimum height, 16px text; label 700 at 14px above.
-- **Focus:** border turns blue and the fill turns white.
-- **Error:** error-red border on white and a 13px error line beneath.
-- **Filter search and select:** white fill with a hairline border, 50px tall; focus border blue.
-- **Newsletter form:** translucent white pill-box inside the CTA slab with the input and a sun button inline.
+- **Style:** deep-ivory fill, 1.5px transparent border, 14px radius, 52px minimum height, 16px text; label 700 at 14px above.
+- **Focus:** the border turns burgundy and the fill turns paper.
+- **Error:** error-red border on paper and a 13px error line beneath.
+- **Filter search and select:** paper fill with a hairline border, 50px tall; burgundy focus border.
+- **Newsletter form:** translucent white pill-box inside the CTA slab, with the input and an ivory button inline.
 
 ### Navigation
-- Fixed white bar floating 16px from the top, 18px radius, logo left, 600 links at 15px, right cluster with search icon button, Urdu language switch and a Get Involved button. Hover fills a link with the ground colour; the current section is blue with a short 3px sun underbar.
-- Mega menus: white, 18px radius, two-column list of bold titles with muted descriptions, fading in 8px.
-- Below 1180px: a menu button opens a white sheet with expandable sub-menus and a sun Get Involved row; Escape closes it.
-- Footer: navy, five columns, white logo plate, sun hover on links, 44px social squares in navy-2 turning sun.
+- **Header bar:** an opaque paper bar floating 16px from the top, with an 18px radius.
+  - Logo on the left. It uses `mix-blend-mode: multiply`, so the PNG's white box disappears into the paper.
+  - Burgundy links, 600 at 15px.
+  - A right cluster with the search icon button, the Urdu language switch and a burgundy Get Involved button.
+  - Hovering a link fills it with ivory. The current section gets a short 3px burgundy underbar.
+- **Mega menus:** paper, 18px radius, a two-column list of bold titles with muted descriptions, fading in 8px.
+- **Below 1180px:** a menu button opens a paper sheet with expandable sub-menus and a burgundy Get Involved row. Escape closes it.
+- **Footer:** burgundy, five columns, a paper logo plate, brass hover on links, and 44px social squares in burgundy-2 that turn brass.
 
 ### Signature components
 - **Facts strip:** hairline-topped auto-fit row (170px min) of 800 values with on-dark-muted captions, closing each hero.
 - **Family marker:** 10px family-colour dot plus the family name in 700 at 13px.
-- **Download row:** white row with a 44px ground icon square, bold title, muted size line and a file-type tag; hover turns the row navy and the icon square sun.
-- **Book cover:** coloured cover by series (Vernacular navy, Language and Culture blue, Other publications sun, Translations Iranian green), spine shade, 800 title, Urdu titles in Nastaliq RTL; real cover images replace the colour block where available.
-- **Publication list:** one page, no per-book pages, mirroring FLI's live Publications page. Each series is a white table: a series-coloured rounded-square number, the title (Urdu titles in Nastaliq as published, with an English gloss beneath), language, author and year. Rows carry ids (`#ver-01`, `#lc-18`, `#pr-21`) so language pages and search link straight to a row, which highlights pale sun. A sticky search and language filter above the tables hides empty series. Below 700px each row becomes the number plus a title block and one wrapped meta line.
-- **Report tile:** asymmetric navy/blue/sun cycling tiles with the year set huge; tilt -1deg and lift on hover.
-- **Process steps:** white step cards headed by a navy rounded-square counter with a sun numeral (inverted on navy sections), because the order is the information.
-- **Event row:** navy square date block (38px day, sun month), title, place and time, action button.
-- **CTA slab:** 135deg navy to navy-2 to blue gradient, 36px radius, headline beside the newsletter form.
+- **Download row:** paper row with a 44px ivory icon square, bold title, muted size line and a file-type tag. On hover the row turns burgundy and the icon square brass.
+- **Book cover:**
+  - Coloured by series: Vernacular burgundy, Language and Culture brass, Other publications sand, Translations burgundy-2.
+  - Spine shade and an 800 title; Urdu titles in Nastaliq RTL.
+  - Real cover images replace the colour block where available.
+- **Publication list:** one page with no per-book pages, mirroring FLI's live Publications page.
+  - Each series is a paper table. Columns: a series-coloured rounded-square number (burgundy, brass or sand), the title, language, author and year.
+  - Titles appear in burgundy. Urdu titles are in Nastaliq as published, with an English gloss beneath. The other cells use body ink.
+  - Rows carry ids (`#ver-01`, `#lc-18`, `#pr-21`), so language pages and search link straight to a row, which highlights blush.
+  - A sticky search and language filter above the tables hides empty series.
+  - Below 700px, each row becomes the number plus a title block and one wrapped meta line.
+- **Report tile:** asymmetric tiles cycling burgundy / burgundy-2 / sand, with the year set huge; tilts -1deg and lifts on hover.
+- **Process steps:** paper step cards headed by a rounded-square counter, because the order is the information. The counter is burgundy with a brass numeral; on burgundy sections it is brass with a burgundy numeral.
+- **Event row:** burgundy square date block (38px day, brass month), title, place and time, action button.
+- **CTA slab:** 135deg burgundy → burgundy-2 → #8A2216 gradient, 36px radius, headline beside the newsletter form.
 
 ## Do's and Don'ts
 
 ### Do:
-- **Do** open every page on a navy hero and choose the variant by page type: photo for section hubs, language-map texture for language pages, plain navy for documents.
-- **Do** keep the three surface levels in order: navy, cool ground (#f4f6fb), white cards.
-- **Do** set every heading in Plus Jakarta Sans 800 with negative tracking, and highlight at most a phrase of an H1 in sun.
-- **Do** use one sun button per hero; pair it with a glass button on photos.
+- **Do** open every page on a burgundy hero and choose the variant by page type: photo for section hubs, language-map texture for language pages, plain burgundy for documents.
+- **Do** keep the three surface levels in order: burgundy, ivory (#F8F1E7), paper cards.
+- **Do** keep burgundy to about a quarter of each page: hero, footer, and at most one band or slab between.
+- **Do** set every heading in Plus Jakarta Sans 800 with negative tracking, and highlight at most a phrase of an H1 in brass.
+- **Do** use one ivory primary button per hero; pair it with a glass button on photos.
+- **Do** keep photos in their natural colours and fade burgundy in only behind the text.
+- **Do** underline links that sit in running text.
 - **Do** tag every Urdu string `lang="ur"` so it renders RTL in Noto Nastaliq Urdu with a Scheherazade New fallback, and load those fonts only on pages that contain Urdu.
 - **Do** use the family colours exactly as FLI's map legend, always beside the family name.
 - **Do** keep tap targets at 44px or more (buttons 48px, chips and small buttons 44px, inputs 50 to 52px).
-- **Do** use on-sun-text (#5b4300) for body copy on sun and the on-dark blues for secondary copy on navy.
+- **Do** use burgundy-2 for body copy on sand, and the on-dark creams for secondary copy on burgundy.
 
 ### Don't:
 - **Don't** put eyebrow pills above headings on any page; use breadcrumbs and the facts strip.
@@ -380,4 +458,5 @@ Confident, chunky and sentence-case.
 - **Don't** use family colours as decoration or for status.
 - **Don't** set Urdu in Plus Jakarta Sans or a system face, or track it.
 - **Don't** use uppercase tracked labels; labels are sentence case.
-- **Don't** set sun text on white or ground.
+- **Don't** set brass text on ivory, paper or sand (2.4:1).
+- **Don't** wash a whole photo in burgundy or lower its opacity.
