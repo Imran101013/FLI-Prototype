@@ -214,7 +214,7 @@
     var a=res.querySelectorAll('a');
     if(e.key==='Escape')close();
     else if((e.key==='ArrowDown'||e.key==='ArrowUp')&&a.length){e.preventDefault();sel=(sel+(e.key==='ArrowDown'?1:-1)+a.length)%a.length;a.forEach(function(x,i){x.classList.toggle('sel',i===sel);});a[sel].scrollIntoView({block:'nearest'});}
-    else if(e.key==='Enter'&&d.activeElement===si&&a[sel]){location.href=a[sel].href;}
+    else if(e.key==='Enter'&&d.activeElement===si&&a[sel]){e.preventDefault();location.href=a[sel].href;}
     else if(e.key==='Tab'){var f=sx.querySelectorAll('input,button,a'),first=f[0],last=f[f.length-1];if(e.shiftKey&&d.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey&&d.activeElement===last){e.preventDefault();first.focus();}}
   });
   d.addEventListener('keydown',function(e){if((e.key==='/'&&!/INPUT|TEXTAREA|SELECT/.test(d.activeElement.tagName))||((e.ctrlKey||e.metaKey)&&e.key==='k')){e.preventDefault();open();}});

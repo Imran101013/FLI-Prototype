@@ -1,0 +1,468 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-02T08:16:35.792Z",
+  "title": "Design System: FLI home, variant B (the programme bill)",
+  "scope": "VARIANT ONLY: index-b.html. Does not govern the other pages; the root DESIGN.md and .impeccable/design.json remain authoritative unless the user adopts this direction site-wide. Colour scheme shared with the incumbent by the user's instruction.",
+  "extensions": {
+    "colorMeta": {
+      "burgundy": {
+        "role": "primary",
+        "displayName": "Mushaira Burgundy",
+        "canonical": "#5B0404",
+        "tonalRamp": [
+          "#490303",
+          "#7F0606",
+          "#B50808",
+          "#EA0A0A",
+          "#F63737",
+          "#F96C6C",
+          "#FBA7A7",
+          "#FEE7E7"
+        ]
+      },
+      "burgundy-second": {
+        "role": "primary",
+        "displayName": "Second-Pass Burgundy",
+        "canonical": "#741414",
+        "tonalRamp": [
+          "#410B0B",
+          "#711313",
+          "#A11C1C",
+          "#D12424",
+          "#E04D4D",
+          "#E87D7D",
+          "#F2B1B1",
+          "#FBE9E9"
+        ]
+      },
+      "brass": {
+        "role": "secondary",
+        "displayName": "Brass Action Ink",
+        "canonical": "#D8A847",
+        "tonalRamp": [
+          "#3F2F0D",
+          "#6D5117",
+          "#9C7321",
+          "#CA952B",
+          "#DAAD52",
+          "#E4C381",
+          "#EFDBB3",
+          "#FBF5EA"
+        ]
+      },
+      "ivory": {
+        "role": "neutral",
+        "displayName": "Reversed Ivory",
+        "canonical": "#F8F1E7",
+        "tonalRamp": [
+          "#3B2A11",
+          "#67491E",
+          "#92672B",
+          "#BE8637",
+          "#D0A15D",
+          "#DCBA89",
+          "#EAD6B8",
+          "#F9F3EB"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Newsprint White",
+        "canonical": "#FFFCF7",
+        "tonalRamp": [
+          "#4D3000",
+          "#855300",
+          "#BD7600",
+          "#F59900",
+          "#FFB12E",
+          "#FFC666",
+          "#FFDDA3",
+          "#FFF5E5"
+        ]
+      },
+      "ivory-deep": {
+        "role": "neutral",
+        "displayName": "Deep Ivory",
+        "canonical": "#EFE3D2",
+        "tonalRamp": [
+          "#382914",
+          "#624823",
+          "#8B6631",
+          "#B58440",
+          "#C89F65",
+          "#D7B98E",
+          "#E7D5BB",
+          "#F8F3EC"
+        ]
+      },
+      "sand-wall": {
+        "role": "neutral",
+        "displayName": "Sand Wall",
+        "canonical": "#EAD7B8",
+        "tonalRamp": [
+          "#3B2B11",
+          "#664B1E",
+          "#926B2B",
+          "#BD8A38",
+          "#CFA45E",
+          "#DCBC89",
+          "#EAD7B8",
+          "#F9F4EB"
+        ]
+      },
+      "body-ink": {
+        "role": "neutral",
+        "displayName": "Body Ink",
+        "canonical": "#33231F",
+        "tonalRamp": [
+          "#30211D",
+          "#523932",
+          "#755147",
+          "#98685D",
+          "#B0877D",
+          "#C5A7A0",
+          "#DCCAC6",
+          "#F5F0EF"
+        ]
+      },
+      "muted-ink": {
+        "role": "neutral",
+        "displayName": "Muted Ink",
+        "canonical": "#6E5B53",
+        "tonalRamp": [
+          "#2C2421",
+          "#4C3F39",
+          "#6C5951",
+          "#8C7369",
+          "#A59088",
+          "#BDAEA8",
+          "#D8CECB",
+          "#F4F2F0"
+        ]
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#E6D8C6",
+        "tonalRamp": [
+          "#352817",
+          "#5C4628",
+          "#83633A",
+          "#AA804B",
+          "#BF9C6E",
+          "#D0B695",
+          "#E3D3BF",
+          "#F7F3ED"
+        ]
+      },
+      "on-ink-muted": {
+        "role": "neutral",
+        "displayName": "On-Ink Muted",
+        "canonical": "#D9B3A8",
+        "tonalRamp": [
+          "#351E17",
+          "#5C3428",
+          "#834A39",
+          "#AA604A",
+          "#BF806D",
+          "#D0A295",
+          "#E3C7BF",
+          "#F7EFED"
+        ]
+      },
+      "on-ink-soft": {
+        "role": "neutral",
+        "displayName": "On-Ink Soft",
+        "canonical": "#EDD6CF",
+        "tonalRamp": [
+          "#381D15",
+          "#603224",
+          "#894733",
+          "#B25D43",
+          "#C67D67",
+          "#D5A090",
+          "#E6C6BC",
+          "#F8EFEC"
+        ]
+      },
+      "on-ink-rule": {
+        "role": "neutral",
+        "displayName": "On-Ink Rule",
+        "canonical": "#8C3A31",
+        "tonalRamp": [
+          "#391714",
+          "#622922",
+          "#8C3A31",
+          "#B54B3F",
+          "#C96E64",
+          "#D7958E",
+          "#E7BFBB",
+          "#F8EDEC"
+        ]
+      },
+      "error": {
+        "role": "error",
+        "displayName": "Error Red",
+        "canonical": "#B3261E",
+        "tonalRamp": [
+          "#420E0B",
+          "#721813",
+          "#A2221B",
+          "#D22D23",
+          "#E1544C",
+          "#E9827C",
+          "#F2B4B0",
+          "#FBEAE9"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline only; two fitted lines, condensed then expanded at 900."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section heads on a double rule."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Programme titles and half-sheet heads; programme titles breathe to width 84 on hover."
+      },
+      "bill": {
+        "displayName": "Bill",
+        "purpose": "Language and keyboard bills, balanced and fitted per line."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "All running text."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Stubs, arrow links, nav, plate numbers, footer heads."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Plate captions and imprint lines."
+      },
+      "nastaliq": {
+        "displayName": "Nastaliq",
+        "purpose": "Urdu-script language names, right to left, never width-stretched."
+      }
+    },
+    "shadows": [],
+    "printersMarks": [
+      {
+        "name": "double-rule",
+        "value": "border-top:4px solid currentColor; 3px gap; 1px solid currentColor",
+        "purpose": "Opens section heads, ledger, series list, news list, footer grid; closes the Nastaliq band."
+      },
+      {
+        "name": "hairline",
+        "value": "1px solid (burgundy on light sheets, #8C3A31 on burgundy)",
+        "purpose": "Between rows."
+      },
+      {
+        "name": "perforation",
+        "value": "radial-gradient(circle,currentColor 1.3px,transparent 1.8px) left center/3px 7px repeat-y",
+        "purpose": "Separates a stub's arrow tab."
+      },
+      {
+        "name": "tear-edge",
+        "value": "radial-gradient(circle at 50% 50%,#EAD7B8 4px,transparent 4.6px) 0 0/18px 12px repeat-x",
+        "purpose": "Top edge of the subscription sheet."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-expressive",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Arrow nudges, programme-title width breathing, menu drop."
+      },
+      {
+        "name": "colour-swap",
+        "value": "background-color, color .15s to .18s",
+        "purpose": "Reversals on stubs, nav cells, bill names, rows."
+      },
+      {
+        "name": "arrow-nudge",
+        "value": "transform: translateX(4px) over .35s",
+        "purpose": "Arrow in stubs and links on hover."
+      },
+      {
+        "name": "title-breathe",
+        "value": "font-stretch 70% to 84% over .6s",
+        "purpose": "Programme titles on row hover."
+      },
+      {
+        "name": "register-pass",
+        "value": "text-shadow -.045em .03em 0 #D8A847 to none, 1.1s, second line delayed .14s",
+        "purpose": "The one authored load moment: hero headline settles into register after fonts load."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "all animation and transition off",
+        "purpose": "prefers-reduced-motion: reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "nav-collapse",
+        "value": "1180px"
+      },
+      {
+        "name": "acts-two-col",
+        "value": "1050px"
+      },
+      {
+        "name": "stack",
+        "value": "900px"
+      },
+      {
+        "name": "acts-one-col",
+        "value": "700px"
+      },
+      {
+        "name": "small",
+        "value": "560px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Stub (light sheet)",
+      "kind": "button",
+      "refersTo": "stub",
+      "description": "Primary action on ivory or newsprint sheets: a square ticket with a perforated arrow tab.",
+      "html": "<a href=\"#\" class=\"ds-stub ds-stub-primary\"><span>Get a keyboard</span><span class=\"ds-tab\"><svg class=\"ds-ic\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 12h15M13 6l6 6-6 6\"/></svg></span></a>",
+      "css": ":host{--burg:#5B0404;--burg2:#741414;--ivory:#F8F1E7;--paper:#FFFCF7;--ivory-deep:#EFE3D2;--sand:#EAD7B8;--brass:#D8A847;--body:#33231F;--muted:#6E5B53;--line:#E6D8C6;--on-muted:#D9B3A8;--on-soft:#EDD6CF;--on-rule:#8C3A31;--wood:'Anybody','Arial Narrow',sans-serif;--text:'Schibsted Grotesk',system-ui,sans-serif;--ease:cubic-bezier(.16,1,.3,1)} .ds-ic{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:square;stroke-linejoin:miter;transition:transform .35s var(--ease)} .ds-stub{display:inline-flex;align-items:stretch;min-height:52px;border:0;border-radius:0;cursor:pointer;text-decoration:none;font:800 15px/1 var(--wood);font-stretch:92%;text-transform:uppercase;letter-spacing:.03em;transition:background-color .18s,color .18s} .ds-stub>span{display:flex;align-items:center;padding:0 20px} .ds-stub .ds-tab{padding:0 15px 0 14px;background:radial-gradient(circle,currentColor 1.3px,transparent 1.8px) left center/3px 7px repeat-y} .ds-stub:hover .ds-ic{transform:translateX(4px)} .ds-stub-primary{background:var(--burg);color:var(--ivory)} .ds-stub-primary:hover{background:var(--burg2)} .ds-stub-primary:focus-visible{outline:3px solid var(--burg);outline-offset:3px}"
+    },
+    {
+      "name": "Stub (burgundy sheet)",
+      "kind": "button",
+      "refersTo": "stub-on-ink",
+      "description": "Primary action on burgundy sheets and in the masthead: brass, the action ink.",
+      "html": "<div class=\"ds-ink\"><a href=\"#\" class=\"ds-stub ds-stub-brass\"><span>See our programs</span><span class=\"ds-tab\"><svg class=\"ds-ic\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 12h15M13 6l6 6-6 6\"/></svg></span></a></div>",
+      "css": ":host{--burg:#5B0404;--burg2:#741414;--ivory:#F8F1E7;--paper:#FFFCF7;--ivory-deep:#EFE3D2;--sand:#EAD7B8;--brass:#D8A847;--body:#33231F;--muted:#6E5B53;--line:#E6D8C6;--on-muted:#D9B3A8;--on-soft:#EDD6CF;--on-rule:#8C3A31;--wood:'Anybody','Arial Narrow',sans-serif;--text:'Schibsted Grotesk',system-ui,sans-serif;--ease:cubic-bezier(.16,1,.3,1)} .ds-ic{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:square;stroke-linejoin:miter;transition:transform .35s var(--ease)} .ds-stub{display:inline-flex;align-items:stretch;min-height:52px;border:0;border-radius:0;cursor:pointer;text-decoration:none;font:800 15px/1 var(--wood);font-stretch:92%;text-transform:uppercase;letter-spacing:.03em;transition:background-color .18s,color .18s} .ds-stub>span{display:flex;align-items:center;padding:0 20px} .ds-stub .ds-tab{padding:0 15px 0 14px;background:radial-gradient(circle,currentColor 1.3px,transparent 1.8px) left center/3px 7px repeat-y} .ds-stub:hover .ds-ic{transform:translateX(4px)} .ds-ink{background:var(--burg);padding:24px} .ds-stub-brass{background:var(--brass);color:var(--burg)} .ds-stub-brass:hover{background:var(--ivory);color:var(--burg)} .ds-stub-brass:focus-visible{outline:3px solid var(--brass);outline-offset:3px}"
+    },
+    {
+      "name": "Stub (alternate)",
+      "kind": "button",
+      "refersTo": "stub-alt",
+      "description": "Secondary action on light sheets.",
+      "html": "<a href=\"#\" class=\"ds-stub ds-stub-alt\"><span>Explore 29 languages</span></a>",
+      "css": ":host{--burg:#5B0404;--burg2:#741414;--ivory:#F8F1E7;--paper:#FFFCF7;--ivory-deep:#EFE3D2;--sand:#EAD7B8;--brass:#D8A847;--body:#33231F;--muted:#6E5B53;--line:#E6D8C6;--on-muted:#D9B3A8;--on-soft:#EDD6CF;--on-rule:#8C3A31;--wood:'Anybody','Arial Narrow',sans-serif;--text:'Schibsted Grotesk',system-ui,sans-serif;--ease:cubic-bezier(.16,1,.3,1)} .ds-stub{display:inline-flex;align-items:stretch;min-height:52px;border:0;border-radius:0;cursor:pointer;text-decoration:none;font:800 15px/1 var(--wood);font-stretch:92%;text-transform:uppercase;letter-spacing:.03em;transition:background-color .18s,color .18s} .ds-stub>span{display:flex;align-items:center;padding:0 20px} .ds-stub .ds-tab{padding:0 15px 0 14px;background:radial-gradient(circle,currentColor 1.3px,transparent 1.8px) left center/3px 7px repeat-y} .ds-stub:hover .ds-ic{transform:translateX(4px)} .ds-stub-alt{background:var(--ivory-deep);color:var(--burg)} .ds-stub-alt:hover{background:var(--burg);color:var(--ivory)} .ds-stub-alt:focus-visible{outline:3px solid var(--burg);outline-offset:3px}"
+    },
+    {
+      "name": "Arrow link",
+      "kind": "button",
+      "refersTo": "go-link",
+      "description": "Uppercase wood-type text link with an arrow, used in rows under bills and lists.",
+      "html": "<a href=\"#\" class=\"ds-go\">Language map<svg class=\"ds-ic ds-ic-sm\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 12h15M13 6l6 6-6 6\"/></svg></a>",
+      "css": ":host{--burg:#5B0404;--burg2:#741414;--ivory:#F8F1E7;--paper:#FFFCF7;--ivory-deep:#EFE3D2;--sand:#EAD7B8;--brass:#D8A847;--body:#33231F;--muted:#6E5B53;--line:#E6D8C6;--on-muted:#D9B3A8;--on-soft:#EDD6CF;--on-rule:#8C3A31;--wood:'Anybody','Arial Narrow',sans-serif;--text:'Schibsted Grotesk',system-ui,sans-serif;--ease:cubic-bezier(.16,1,.3,1)} .ds-ic{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:square;stroke-linejoin:miter;transition:transform .35s var(--ease)} .ds-ic-sm{width:16px;height:16px} .ds-go{display:inline-flex;align-items:center;gap:8px;min-height:44px;font:800 14px/1.2 var(--wood);font-stretch:90%;text-transform:uppercase;letter-spacing:.03em;text-decoration:none;color:var(--burg);text-underline-offset:.22em;text-decoration-thickness:1.5px} .ds-go:hover{text-decoration:underline} .ds-go:hover .ds-ic{transform:translateX(4px)} .ds-go:focus-visible{outline:3px solid var(--burg);outline-offset:3px}"
+    },
+    {
+      "name": "Email field with stub",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "Square deep-ivory field with an inset burgundy underline, paired with a stub.",
+      "html": "<form class=\"ds-form\" onsubmit=\"return false\"><input type=\"email\" placeholder=\"Your email address\" aria-label=\"Email address\"><button class=\"ds-stub ds-stub-primary\"><span>Subscribe</span><span class=\"ds-tab\"><svg class=\"ds-ic\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 12h15M13 6l6 6-6 6\"/></svg></span></button></form>",
+      "css": ":host{--burg:#5B0404;--burg2:#741414;--ivory:#F8F1E7;--paper:#FFFCF7;--ivory-deep:#EFE3D2;--sand:#EAD7B8;--brass:#D8A847;--body:#33231F;--muted:#6E5B53;--line:#E6D8C6;--on-muted:#D9B3A8;--on-soft:#EDD6CF;--on-rule:#8C3A31;--wood:'Anybody','Arial Narrow',sans-serif;--text:'Schibsted Grotesk',system-ui,sans-serif;--ease:cubic-bezier(.16,1,.3,1)} .ds-ic{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:square;stroke-linejoin:miter;transition:transform .35s var(--ease)} .ds-stub{display:inline-flex;align-items:stretch;min-height:52px;border:0;border-radius:0;cursor:pointer;text-decoration:none;font:800 15px/1 var(--wood);font-stretch:92%;text-transform:uppercase;letter-spacing:.03em;transition:background-color .18s,color .18s} .ds-stub>span{display:flex;align-items:center;padding:0 20px} .ds-stub .ds-tab{padding:0 15px 0 14px;background:radial-gradient(circle,currentColor 1.3px,transparent 1.8px) left center/3px 7px repeat-y} .ds-stub:hover .ds-ic{transform:translateX(4px)} .ds-stub-primary{background:var(--burg);color:var(--ivory);min-height:56px} .ds-stub-primary:hover{background:var(--burg2)} .ds-form{display:flex;max-width:560px} .ds-form input{flex:1;min-width:0;min-height:56px;border:0;border-radius:0;background:var(--ivory-deep);box-shadow:inset 0 -3px 0 var(--burg);padding:0 18px;font:500 17px var(--text);color:var(--burg);transition:background-color .15s} .ds-form input::placeholder{color:var(--muted);opacity:1} .ds-form input:focus{background:var(--paper);outline:3px solid var(--burg);outline-offset:3px} .ds-form input[aria-invalid=true]{box-shadow:inset 0 -3px 0 #B3261E}"
+    },
+    {
+      "name": "Masthead strip",
+      "kind": "nav",
+      "refersTo": "masthead",
+      "description": "Sticky burgundy strip; items divided by seams, reversing to ivory on hover or focus.",
+      "html": "<nav class=\"ds-mast\"><span class=\"ds-logo\">FLI</span><ul><li><a href=\"#\">About</a></li><li><a href=\"#\">Our work</a></li><li><a href=\"#\">Languages</a></li><li><a href=\"#\">Publications</a></li></ul><a href=\"#\" class=\"ds-mast-stub\">Get involved</a></nav>",
+      "css": ":host{--burg:#5B0404;--burg2:#741414;--ivory:#F8F1E7;--paper:#FFFCF7;--ivory-deep:#EFE3D2;--sand:#EAD7B8;--brass:#D8A847;--body:#33231F;--muted:#6E5B53;--line:#E6D8C6;--on-muted:#D9B3A8;--on-soft:#EDD6CF;--on-rule:#8C3A31;--wood:'Anybody','Arial Narrow',sans-serif;--text:'Schibsted Grotesk',system-ui,sans-serif;--ease:cubic-bezier(.16,1,.3,1)} .ds-mast{display:flex;align-items:center;gap:20px;height:68px;padding:0 24px;background:var(--burg);color:var(--ivory);border-bottom:1px solid var(--on-rule)} .ds-logo{display:flex;align-items:center;height:52px;padding:0 12px;background:var(--paper);color:var(--burg);font:800 22px/1 var(--wood)} .ds-mast ul{list-style:none;margin:0 0 0 auto;padding:0;display:flex;height:100%} .ds-mast li{display:flex} .ds-mast li+li{box-shadow:inset 1px 0 0 var(--on-rule)} .ds-mast li a{display:flex;align-items:center;padding:0 15px;color:inherit;font:700 14px/1 var(--wood);font-stretch:86%;text-transform:uppercase;letter-spacing:.04em;text-decoration:none;transition:background-color .15s,color .15s} .ds-mast li a:hover,.ds-mast li a:focus-visible{background:var(--ivory);color:var(--burg);outline:none} .ds-mast-stub{display:inline-flex;align-items:center;min-height:44px;padding:0 16px;background:var(--brass);color:var(--burg);font:800 14px/1 var(--wood);font-stretch:92%;text-transform:uppercase;letter-spacing:.03em;text-decoration:none} .ds-mast-stub:hover{background:var(--ivory)} .ds-mast-stub:focus-visible{outline:3px solid var(--brass);outline-offset:3px}"
+    },
+    {
+      "name": "Language bill",
+      "kind": "custom",
+      "refersTo": "bill-name-hover",
+      "description": "Signature: names billed in wood type with square bullets; a hovered or focused name reverses out. The live build balances and fits each line to the measure by script.",
+      "html": "<ul class=\"ds-bill\"><li><a href=\"#\">Khowar</a></li><li><a href=\"#\">Palula</a></li><li><a href=\"#\">Shina</a></li><li><a href=\"#\">Torwali</a></li><li><a href=\"#\">Kalkoti</a></li><li><a href=\"#\">Gawri</a></li></ul>",
+      "css": ":host{--burg:#5B0404;--burg2:#741414;--ivory:#F8F1E7;--paper:#FFFCF7;--ivory-deep:#EFE3D2;--sand:#EAD7B8;--brass:#D8A847;--body:#33231F;--muted:#6E5B53;--line:#E6D8C6;--on-muted:#D9B3A8;--on-soft:#EDD6CF;--on-rule:#8C3A31;--wood:'Anybody','Arial Narrow',sans-serif;--text:'Schibsted Grotesk',system-ui,sans-serif;--ease:cubic-bezier(.16,1,.3,1)} .ds-bill{list-style:none;margin:0;padding:12px 0 0;border-top:4px solid var(--burg);color:var(--burg)} .ds-bill li{display:inline;font:800 44px/1.04 var(--wood);font-stretch:90%;text-transform:uppercase} .ds-bill li:not(:last-child)::after{content:'';display:inline-block;width:.15em;height:.15em;background:var(--burg);margin:0 .34em;vertical-align:.29em} .ds-bill a{color:inherit;text-decoration:none;padding:0 .05em;transition:background-color .15s,color .15s} .ds-bill a:hover,.ds-bill a:focus-visible{background:var(--burg);color:var(--ivory);outline:none}"
+    },
+    {
+      "name": "Plate",
+      "kind": "card",
+      "refersTo": "",
+      "description": "Every photograph is a plate with a numbered caption saying what and where.",
+      "html": "<figure class=\"ds-plate\"><div class=\"ds-img\"></div><figcaption><b>Plate 2</b><span>Government school teachers at the close of a writers’ workshop in Booni, Upper Chitral.</span></figcaption></figure>",
+      "css": ":host{--burg:#5B0404;--burg2:#741414;--ivory:#F8F1E7;--paper:#FFFCF7;--ivory-deep:#EFE3D2;--sand:#EAD7B8;--brass:#D8A847;--body:#33231F;--muted:#6E5B53;--line:#E6D8C6;--on-muted:#D9B3A8;--on-soft:#EDD6CF;--on-rule:#8C3A31;--wood:'Anybody','Arial Narrow',sans-serif;--text:'Schibsted Grotesk',system-ui,sans-serif;--ease:cubic-bezier(.16,1,.3,1)} .ds-plate{margin:0;max-width:320px} .ds-img{aspect-ratio:4/3;background:var(--sand)} .ds-plate figcaption{display:flex;gap:12px;margin-top:10px;font:500 13px/1.45 var(--text);color:var(--muted)} .ds-plate figcaption b{flex:none;font:800 13px/1.45 var(--wood);font-stretch:85%;text-transform:uppercase;letter-spacing:.03em;color:var(--burg)}"
+    },
+    {
+      "name": "Section head on double rule",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "Wood-type section headline with a muted dek, closed by the 4px-over-1px double rule.",
+      "html": "<header class=\"ds-head\"><h2>What FLI does.</h2><p>From writers’ workshops to fonts and keyboards.</p></header>",
+      "css": ":host{--burg:#5B0404;--burg2:#741414;--ivory:#F8F1E7;--paper:#FFFCF7;--ivory-deep:#EFE3D2;--sand:#EAD7B8;--brass:#D8A847;--body:#33231F;--muted:#6E5B53;--line:#E6D8C6;--on-muted:#D9B3A8;--on-soft:#EDD6CF;--on-rule:#8C3A31;--wood:'Anybody','Arial Narrow',sans-serif;--text:'Schibsted Grotesk',system-ui,sans-serif;--ease:cubic-bezier(.16,1,.3,1)} .ds-head{display:grid;grid-template-columns:7fr 5fr;gap:20px 40px;align-items:end;padding:24px 24px 22px;border-bottom:4px solid var(--burg);position:relative;background:var(--paper)} .ds-head::after{content:'';position:absolute;left:0;right:0;bottom:-9px;border-top:1px solid var(--burg)} .ds-head h2{margin:0;font:800 56px/.86 var(--wood);font-stretch:76%;text-transform:uppercase;color:var(--burg)} .ds-head p{margin:0;font:400 17px/1.6 var(--text);color:var(--muted)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Mushaira Programme Bill",
+    "overview": "The page is the bilingual letterpress poster pasted up for every mushaira in Chitral and Gilgit: two inks on newsprint, billing FLI's mother tongues as headliners. Burgundy floods whole sheets and ivory reverses out of it; brass is a third ink that prints only where something can be done. Every section is its own pasted sheet, separated from its neighbours by a strip of sand wall, so the page reads top to bottom as a programme: who is on stage, the language bill, what's on, the record, notices, the library and keyboards, then a tear-off subscription stub and the printer's imprint.\n\nDisplay type is Anybody wood type, uppercase and fitted to the full measure by the width axis first and size second, the way a compositor chooses wood type; billing lines never wrap ragged. Running text is Schibsted Grotesk. Language names FLI prints in Nastaliq appear in Noto Nastaliq Urdu, right to left, as FLI's own books spell them. Structure comes from flat ink fields and printer's rules (double rules, hairlines, perforations), never from outlined boxes, cards, gradients or rounded corners.\n\nDensity is poster-like at the top of each sheet (very large wood type at line-height under 0.9) and ledger-like underneath (full-width ruled rows, hairline lists, tabular numerals).",
+    "keyCharacteristics": [
+      "Two inks plus one action ink: burgundy, ivory, brass.",
+      "Sheets pasted on a sand wall with visible seams.",
+      "Fitted wood-type billing lines that fill the measure exactly.",
+      "Square corners everywhere.",
+      "Double printer's rules (4px over 1px) opening every major block.",
+      "Numbered plate captions on every photograph.",
+      "Perforated stubs as buttons; a tear-off edge on the subscription sheet."
+    ],
+    "rules": [
+      {
+        "name": "The Arcade Rule",
+        "body": "Brass prints only where something can be done: stubs, hovered links, focus, selection. Never as the fill of a heading, a rule or a decorative field.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Inks Rule",
+        "body": "Every sheet is either flooded burgundy with ivory reversed out, or a light paper [ivory or newsprint white) inked in burgundy. Text never sits on an in-between tint.",
+        "section": "colors"
+      },
+      {
+        "name": "The Never-Wrap Rule",
+        "body": "A billing line never wraps ragged. Hero lines, bill lines, ledger figures and the footer signature are each fitted to the full measure, width axis first, then size. Without JavaScript they may wrap; with it they fill edge to edge.",
+        "section": "typography"
+      },
+      {
+        "name": "The Wood-Type-Is-Uppercase Rule",
+        "body": "Anybody is set uppercase at 800 or above everywhere except the single mixed-case vision statement. Sentences belong to Schibsted Grotesk.",
+        "section": "typography"
+      },
+      {
+        "name": "The Pasted-Sheet Rule",
+        "body": "Sections are separate sheets meeting at visible sand seams. Never separate sections with shadows, gradients or outlined boxes.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Tanaka Plane Rule",
+        "body": "Structure is flat ink fields and printer’s rules. A group is made with a rule above it, never with a box around it.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do fit every billing line (hero, bills, ledger, footer signature) to the full measure, width axis first, then size.",
+      "Do keep brass for stubs, hovered links, focus and selection only (The Arcade Rule).",
+      "Do open every major block with the double rule (4px over 1px) in the current ink.",
+      "Do give every photograph a numbered plate caption saying what and where.",
+      "Do separate sections as pasted sheets with a sand seam (10px; 6px under 560px).",
+      "Do put a news category under its headline, never above it.",
+      "Do bill lists of languages as a fitted bill, not as tiles or cards.",
+      "Do keep every corner square (0px)."
+    ],
+    "donts": [
+      "Don't use rounded corners, cards, outlined boxes, gradients or drop shadows.",
+      "Don't put a kicker or eyebrow label above a headline.",
+      "Don't let a wood-type billing line wrap ragged.",
+      "Don't print headings, rules or decorative fields in brass.",
+      "Don't stretch Nastaliq on a width axis or set it in any face but Noto Nastaliq Urdu.",
+      "Don't use a photo hero, a stat row of numbers in boxes, or tabs."
+    ]
+  }
+}
