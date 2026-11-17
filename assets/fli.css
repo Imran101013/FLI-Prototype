@@ -76,7 +76,6 @@ h4{font-weight:800;letter-spacing:-.01em}
 .mega a{padding:12px 14px;border-radius:12px;display:block}
 .mega a:hover{background:var(--ivory)}
 .mega b{display:block;font-size:14px}
-.mega small{color:var(--muted);font-size:13px}
 .mega.end{left:auto;right:-60px;transform:translateY(8px)}
 .site-hdr nav li:hover .mega.end,.site-hdr nav li:focus-within .mega.end{transform:none}
 .sub-tg{display:none}
